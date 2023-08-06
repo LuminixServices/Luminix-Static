@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apps</title>
+  <link href="css/apps.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="./window.js"></script>
+</head>
+<body>
+    <p id="small_gap">ㅤ</p>
+    <div class="navbar">
+        <div class="logo"></div>
+        <a href="games.html"><i class="fas fa-gamepad"></i> Games</a>
+        <a href="apps.html"><i class="fas fa-mobile-alt"></i> Apps</a>
+        <a href="index.html"><i class="fas fa-search"></i> Search</a>
+        <a href="settings.html"><i class="fas fa-cog"></i> Settings</a>
+        <a href="chat.html"><i class="fas fa-comments"></i> Chat</a>
+    </div>
+    <div id="center">
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="https://cdn.mos.cms.futurecdn.net/8gzcr6RpGStvZFA2qRt4v6.jpg">
+        </div>
+        <div class="app-box-text">
+          <img src="https://cdn.worldvectorlogo.com/logos/youtube-3.svg">
+          <h1>Youtube</h1>
+          <button onclick="openBrowser('https://youtube.com/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/SpotifyBanner.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/SpotifyAppLogo.png">
+          <h1>Spotify</h1>
+          <button onclick="openBrowser('https://open.spotify.com/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/GoogleBanner.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/Google.png">
+          <h1>Google</h1>
+          <button onclick="openBrowser('https://google.com/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/messenger.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/Facebook_Messenger_logo_2020.svg.png">
+          <h1>Messenger</h1>
+          <button onclick="openBrowser('https://messenger.com/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/BFlixBanner.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/BFLix.png">
+          <h1>BFlix</h1>
+          <button onclick="openBrowser('https://bflix.sx/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/CharacterAI.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/characterai.png">
+          <h1>Character.ai</h1>
+          <button onclick="openBrowser('https://beta.character.ai/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/SFlix_Banner.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/sflix.png">
+          <h1>SFlix</h1>
+          <button onclick="openBrowser('https://sflix.to/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/Discord_Banner.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/discord.jpg">
+          <h1>Discord</h1>
+          <button onclick="openBrowser('https://discord.com/app')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/twitter (1).png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/twitter.png">
+          <h1>Twitter</h1>
+          <button onclick="openBrowser('https://twitter.com/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/Twitch.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/twitch.png">
+          <h1>Twitch</h1>
+          <button onclick="openBrowser('https://twitch.tv/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/CoolMath_Banner.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/coolmathgames.png">
+          <h1>CoolMathGames</h1>
+          <button onclick="openBrowser('https://coolmathgames.com/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/Amazon_Banner.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/amazon.png">
+          <h1>Amazon</h1>
+          <button onclick="openBrowser('https://amazon.com/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/crazygames.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/crazy.png">
+          <h1>CrazyGames</h1>
+          <button onclick="openBrowser('https://crazygames.com/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/ESPN_BANNER.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/espn.png">
+          <h1>ESPN</h1>
+          <button onclick="openBrowser('https://espn.com/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/YTMusic.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/youtubemusic.png">
+          <h1>Youtube Music</h1>
+          <button onclick="openBrowser('https://music.youtube.com')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/xbox.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/xbox.png">
+          <h1>Xbox</h1>
+          <button onclick="openBrowser('https://www.xbox.com/en-us/play')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/ChatGPT.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/GPT.png">
+          <h1>ChatGPT</h1>
+          <button onclick="openBrowser('https://chatgptproxy.me/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/reddit.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/reddit.png">
+          <h1>Reddit</h1>
+          <button onclick="openBrowser('https://reddit.com/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/FLIXHQ.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/flix.png">
+          <h1>FlixHQ</h1>
+          <button onclick="openBrowser('https://flixhq.to/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/flixtor.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/flixtor.png">
+          <h1>flixtor</h1>
+          <button onclick="openBrowser('https://flixtor.to/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/Onion.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/onion.png">
+          <h1>OnionFlix</h1>
+          <button onclick="openBrowser('https://onionflix.org/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/LECTURE.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/thirtydollar.png">
+          <h1>Thirty Dollar Website</h1>
+          <button onclick="openBrowser('https://thirtydollar.website/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/geforce.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/geforce.png">
+          <h1>Geforce Now</h1>
+          <button onclick="openBrowser('https://play.geforcenow.com/mall/#/layout/games')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/VisualStudioCode.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/vscode.png">
+          <h1>VSCode</h1>
+          <button onclick="openBrowser('https://vscode.dev/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/9Anime.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/9anime.png">
+          <h1>9anime</h1>
+          <button onclick="openBrowser('https://9anime.to/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/TikTok.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/tiktok.png">
+          <h1>TikTok</h1>
+          <button onclick="openBrowser('https://tiktok.com/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/ZoroTO.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/zoroto.png">
+          <h1>Zoro.to</h1>
+          <button onclick="openBrowser('https://zoro.to/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/Paint.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/MicrosoftPaint.png">
+          <h1>Microsoft Paint</h1>
+          <button onclick="openBrowser('https://jspaint.app/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/BASE64.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/b64-32.png">
+          <h1>Base64 Decode</h1>
+          <button onclick="openBrowser('https://www.base64decode.org/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/here.fm.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/herefm.png">
+          <h1>Here.fm</h1>
+          <button onclick="openBrowser('https://here.fm/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/rumblebanner.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/rumble.png">
+          <h1>Rumble</h1>
+          <button onclick="openBrowser('https://rumble.com/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/ruffle.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/ruffle.png">
+          <h1>Ruffle</h1>
+          <button onclick="openWindow('./ruffle/demo-master/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/SOUNDCLOUD.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/soundcloud.png">
+          <h1>SoundCloud</h1>
+          <button onclick="openBrowser('https://soundcloud.com/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/Paramount.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/paramount.png">
+          <h1>Paramount+</h1>
+          <button onclick="openBrowser('https://www.paramountplus.com/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/Telegram.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/telegram.png">
+          <h1>Telegram</h1>
+          <button onclick="openBrowser('https://web.telegram.org/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/HBO_Max.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/hbo.png">
+          <h1>HBO Max</h1>
+          <button onclick="openBrowser('https://www.hbomax.com/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/poki_lol.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/pokigames.png">
+          <h1>Poki</h1>
+          <button onclick="openBrowser('https://poki.com/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/Mathway.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/mathway_icon_rounded.png">
+          <h1>Mathway</h1>
+          <button onclick="openBrowser('https://www.mathway.com/Algebra')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/GPTZero.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/GPTZero.png">
+          <h1>GPTZero</h1>
+          <button onclick="openBrowser('https://gptzero.me/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/CaktusAI.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/Caktus.png">
+          <h1>CaktusAI</h1>
+          <button onclick="openBrowser('https://www.caktus.ai/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/Life360.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/life.png">
+          <h1>Life360</h1>
+          <button onclick="openBrowser('https://life360.com/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/AppleMusic0.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/apple.png">
+          <h1>Apple Music</h1>
+          <button onclick="openBrowser('https://music.apple.com/us/browse')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/PintrestBanner.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/pintres.png">
+          <h1>Pintrest</h1>
+          <button onclick="openBrowser('https://pintrest.com')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/nealfunbanner.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/icon.png">
+          <h1>neal.fun</h1>
+          <button onclick="openBrowser('https://neal.fun')">▶</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="app-box">
+        <div class="app-box-image">
+          <img src="./img/banners/Waflash.png">
+        </div>
+        <div class="app-box-text">
+          <img src="./img/icons/waflash.png">
+          <h1>waflash</h1>
+          <button onclick="openBrowser('https://vidkidz.github.io/')">▶</button>
+        </div>
+      </div>
+      <!---->
+      </div>
+</body>
+</html>

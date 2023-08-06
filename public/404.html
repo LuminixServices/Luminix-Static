@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Runtime Error!</title>
+    <meta name="googlebot" content="noindex, nofollow, nosnippet" />
+    <base href="/" />
+    <link rel="shortcut icon" content="favicon.ico" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="logo-wrapper left-margin">
+      <center><h1>Luminix Error!</h1></center>
+    </div>
+    <div class="desc left-margin">
+     <center><p>The server could not route your request.</p></center>
+     <center><p id="domainIssue">If this issue continues please contact the owner of {DOMAINNAME}</p></center>
+     <center><p>discord.gg/raURXdX8Cy</p></center>
+     <center><button onclick="window.location.href='./index.html'" style="width: 128px; height: 42px; border-radius: 25px; color: white; border: transparent; background-color: blueviolet; cursor: pointer;"> Go to Home</button></center>
+      <p id="uv-error"></p>
+      <code id="uv-error-code"></code>
+      <button id="uv-register-sw" value="Register service worker">
+        Register ServiceWorker
+      </button>
+    </div>
+    <script>
+      // Get the domain name from the window.location object
+      var domainName = window.location.hostname;
+  
+      // Replace "{DOMAINNAME}" with the actual domain name
+      var errorMessage = document.getElementById("domainIssue");
+      errorMessage.innerHTML = errorMessage.innerHTML.replace("{DOMAINNAME}", domainName);
+    </script>
+    <script src="uv/uv.bundle.js"></script>
+    <script src="uv/uv.config.js"></script>
+    <script src="register-sw.js"></script>
+    <script src="error.js"></script>
+  </body>
+</html>

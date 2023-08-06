@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    body {
+      background-color: #1d232a;
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    /* Navbar styles */
+    .navbar {
+      border-radius: 19px;
+      background-color: #191e24;
+      display: block; /* Change display property to block */
+      padding-top: 15px;
+      max-width: 95%; /* Adjust this value to set the desired maximum width */
+      height: 52px; /* Add height to the navbar */
+      display: flex; /* Add display: flex to center the links horizontally */
+      justify-content: space-between; /* Change justify-content: center to space-between to move the text to the right side */
+      margin: 0 auto; /* Centers the navbar horizontally */
+    }
+    
+    #center {
+      gap: 15px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .navbar a {
+      text-align: center;
+      color: white;
+      text-decoration: none;
+      padding: 8px 16px;
+      height: 22px;
+    }
+
+    .navbar a:hover {
+        border-radius: 25px;
+      background-color: #555;
+    }
+
+    #small_gap {
+        font-size: 4px;
+    }
+
+    /* Logo styles */
+    .logo {
+      display: block;
+      margin: 0 auto;
+      width: 125px;
+      height: 50px;
+      background-image: url('../img/L_Luminix.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0 auto; /* This centers the logo horizontally */
+      transform: translateX(240px);
+    }
+
+    .app-box {
+      margin-top: 15px;
+      border-radius: 15px;
+      height: 245px;
+      background-color: #101316;
+      width: 350px;
+    }
+
+    .app-box-image {
+      width: 95%;
+      height: 160px;
+    }
+
+    .app-box-text {
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+  color: white;
+  width: 95%;
+  height: 40px;
+  margin-left: 7px;
+  margin-top: 23px;
+}
+
+    .app-box-text h1 {
+      margin-left: 25px;
+      margin-top: 4px;
+    }
+    
+    .app-box-text img {
+      border-radius: 10px;
+      height: 42px;
+      width: 42px;
+    }
+
+    .app-box-text button {
+      cursor: pointer;
+      font-size: 30px;
+      background-color: #6aa84fff;
+      color: white;
+      border: 0px;
+      border-radius: 8px;
+      height: 52px;
+      width: 52px;
+      margin-left: auto;
+    }
+
+    .app-box-text button:hover {
+      cursor: pointer;
+      font-size: 30px;
+      background-color: rgb(109, 209, 66);
+      color: white;
+      border: 0px;
+      border-radius: 8px;
+      height: 52px;
+      width: 52px;
+      margin-left: auto;
+    }
+
+    .app-box-image img {
+      margin-left: 7px;
+      margin-top: 12px;
+      border-radius: 12px 12px 0 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    #uv-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+    
+    label {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    #uv-address {
+      text-align: center;
+      color: white;
+      width: 400px;
+      height: 40px;
+      font-size: 16px;
+      padding: 5px;
+      border: 2px solid rgb(102, 0, 236);
+      border-radius: 5px;
+      background-color: transparent;
+      transition: width 0.5s ease, border-radius 0.5s ease 0.1s;
+    }
+    
+    .searchbar:hover {
+      width: 400px;
+      border-radius: 50px;
+    }
+    
+    #uv-address::placeholder {
+      color: #7e7676;
+    }
+    
+    #uv-address:focus {
+      width: 800px;
+      border-radius: 50px;
+      border: 3px solid rgb(92, 60, 60);
+    }
+    
+    button[type="submit"] {
+      background-color: #963d3a;
+      color: white;
+      font-size: 18px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }

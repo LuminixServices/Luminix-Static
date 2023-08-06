@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apps</title>
+  <link href="css/apps.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="uv/uv.bundle.js" defer></script>
+  <script src="uv/uv.config.js" defer></script>
+    <script src="register-sw.js" defer></script>
+    <script src="search.js" defer></script>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <p id="small_gap">ㅤ</p>
+    <div class="navbar">
+        <div class="logo"></div>
+        <a href="games.html"><i class="fas fa-gamepad"></i> Games</a>
+<a href="apps.html"><i class="fas fa-mobile-alt"></i> Apps</a>
+<a href="index.html"><i class="fas fa-search"></i> Search</a>
+<a href="settings.html"><i class="fas fa-cog"></i> Settings</a>
+<a href="chat.html"><i class="fas fa-comments"></i> Chat</a>
+
+    </div>
+    <div id="center">
+        <img src="./img/L_Luminix.png" width="350px" height="150px" style="margin-top: 120px;">
+    </div>
+    <form id="uv-form" class="flex-center">
+      <input
+        id="uv-search-engine"
+        value="https://www.google.com/search?q=%s"
+        type="hidden"
+      />
+      <input id="uv-address" type="text" placeholder="Search the web freely" />
+      <div class="desc left-margin">
+        <p id="uv-error"></p>
+        <pre id="uv-error-code"></pre>
+      </div>
+      <h1 style="text-align: center; color: rgb(114, 0, 207);">The blacker the better - tyson</h1>
+</body>
+</html>
